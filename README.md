@@ -1,4 +1,4 @@
-# soc-portfolio-A : SOC Analyst (Tier 1/2) | BSc Cybersecurity (IUBH) | Google Cybersecurity Cert | SIEM, detection, triage, IR tickets
+# SOC-PORTFOLIO-A : SOC Analyst (Tier 1/2) | BSc Cybersecurity (IUBH) | Google Cybersecurity Cert | SIEM, detection, triage, IR tickets
 Evidence-based SOC Tier 1/2 project: log pipelines, alert triage, detection rules, threat hunting, incident tickets, and lab writeups (Wazuh, Sysmon, Zeek, Suricata, Velociraptor).
 
 # SOC Portfolio (Tier 1/2)
