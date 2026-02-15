@@ -1,40 +1,42 @@
 # Project 01: Mini SOC Lab (Wazuh + Sysmon)
+Windows telemetry → Wazuh SIEM → detections → investigations → tickets
 
 **Status:** 🟡 in progress  
 **Project repo:** https://github.com/Samaale11/soc-project-01-wazuh-sysmon-siem
 
-## Name
-Mini SOC Lab on a laptop: **Windows telemetry → Wazuh SIEM → detections → investigations → tickets → GitHub proof**
-
 ## Goal
-Build a small SOC-style pipeline where a Windows endpoint produces high-value telemetry (Sysmon + Windows logs), Wazuh ingests and parses it, detections trigger alerts, and each alert is investigated and documented as a SOC ticket.
-
-## What I can explain in an interview
-- How logs move from an endpoint to a SIEM, what gets parsed, and what becomes an alert
-- Why Sysmon adds value beyond standard Windows Security logs (process creation, network connections, richer context)
-- Wazuh components and roles (manager, indexer, dashboard, agent) and what each one does
-- How a custom Wazuh rule works (field matching, rule level, and safe placement so updates do not overwrite work)
+Build a SOC-style pipeline where a Windows endpoint produces high-value telemetry (Sysmon + Windows Event Logs), Wazuh ingests and parses it, detections trigger alerts, and each alert is investigated and documented as a SOC ticket.
 
 ## Lab scope (high level)
 - **Endpoint:** Windows VM with Sysmon + Wazuh agent
 - **SIEM:** Wazuh stack on Ubuntu VM (Docker single-node)
 - **Network:** VirtualBox NAT (internet) + Host-only (private lab network)
 
-## Evidence that will be added later (proof)
-- [ ] Architecture diagram (image in `diagrams/`)
-- [ ] Data sources list and why they matter (in `docs/02_data_sources.md`)
-- [ ] Sysmon config used (in `configs/sysmon/`)
-- [ ] Wazuh agent config snippet (in `configs/wazuh-agent/`)
-- [ ] Custom Wazuh rules (in `rules/local_rules.xml`)
-- [ ] Screenshots that prove ingestion and alerts (in `screenshots/`)
-- [ ] 2 investigation tickets with timelines and decisions (in `tickets/`)
+## What this proves (Tier 1/2 skills)
+- [ ] Alert triage decision (close vs escalate) with evidence
+- [ ] Investigation timeline (who, what, when, where)
+- [ ] Detection logic (rule) + test case
+- [ ] Noise control (false positives and tuning notes)
 
-## Planned detections and tickets (placeholders for now)
-- [ ] INC-001: Suspicious PowerShell with `-EncodedCommand`
-- [ ] INC-002: Local user account created
+## Data sources and tools (Project 01)
+- **Logs:** Sysmon, Windows Security, Windows System, Windows Application
+- **Tools:** Wazuh (manager/indexer/dashboard/agent), VirtualBox, Windows Event Viewer
+
+## Detections and hunts (placeholders for now)
+- Detection 1: Suspicious PowerShell usage (MITRE: T1059.001 placeholder)
+- Detection 2: Local user account created (MITRE: T1136.001 placeholder)
+- Hunt query: Find suspicious parent-child process chains (placeholder)
+
+## Evidence checklist (links added when done)
+- [ ] Architecture diagram
+- [ ] Setup proof screenshots (Wazuh running + agent connected)
+- [ ] Sysmon proof (Event ID 1 visible on the endpoint and inside Wazuh)
+- [ ] Alert proof screenshots (2 detections)
+- [ ] 2 tickets in `tickets/` with timeline + evidence + decision
+- [ ] Custom rules in `rules/` (and tuning notes)
 
 ## How to verify my work (once filled)
 Open the project repo and check:
 1) `screenshots/` for agent connection, Sysmon events, and alerts  
-2) `rules/` for custom rules used to trigger the alerts  
+2) `rules/` for the custom rules used to trigger the alerts  
 3) `tickets/` for investigation notes, evidence, and final decision  
