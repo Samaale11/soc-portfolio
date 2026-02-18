@@ -1,11 +1,10 @@
-# SOC-PORTFOLIO-A : SOC Analyst (Tier 1/2) | BSc Cybersecurity (IU) | Google Cybersecurity Cert | SIEM, detection, triage, IR tickets
-Evidence-based SOC Tier 1/2 project: log pipelines, alert triage, detection rules, threat hunting, incident tickets, and lab writeups (Wazuh, Sysmon, Zeek, Suricata, Velociraptor).
+<h1 align="center"> SOC Analyst Portfolio tier 1  and  2   </h1>
 
-# SOC Portfolio (Tier 1/2)
+<p align="center">I am Mohamed Farah, a Cybersecurity professional with a Bachelor’s degree in Cybersecurity from IU International University of Applied Sciences, the Google Cybersecurity Professional Certificate, and IT Fundamentals certification.</p>
 
-Hi, I’m Mohamed Farah.I have a Bachelor’s degree in Cybersecurity from IUBH University of Applied Sciences, plus IT Fundamentals certification and the Google Cybersecurity Professional Certificate.This repo is the hub for my SOC Analyst Tier 1/2 portfolio: practical projects that prove I can collect telemetry, triage alerts, build detections, and write clear incident tickets.
+<p align="center"> This repository serves as the centralized hub for my SOC Analyst Tier 1 and 2 portfolio. It features evidence-based projects including log pipelines, alert triage, detection rules, threat hunting, incident tickets, and detailed lab writeups. These practical projects provide technical proof of my ability to collect telemetry, triage alerts, build detections, and write clear incident tickets using industry-standard tools such as Wazuh, Sysmon, Zeek, Suricata, and Velociraptor.</p>
 
-**Target role:** SOC Analyst Tier 1/2  
+**Target role:** SOC Analyst Tier 1 or 2  
 ## Credentials
 - **Bachelor’s degree:** Cybersecurity,  2026 | IU International University of Applied Sciences
 - **Certification:** Technical Support Fundamentals  2022 | Google, Coursera
