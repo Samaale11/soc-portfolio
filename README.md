@@ -109,61 +109,66 @@ Each project repo follows a consistent structure so you can check evidence fast:
 Legend: ✅ done | 🟡 in progress | ⬜ planned
 
 1) ⬜ **Project 01: Mini SOC Lab (Wazuh + Sysmon on Windows)**
+   
    -Build: SIEM pipeline for telemetry collection and alert detection via Wazuh and Sysmon.
+   
    -Output: Lab writeups, custom detection rules, and professional incident tickets.
+   
    - Proves: endpoint telemetry, SIEM ingestion, custom alerts, investigation tickets
-   -**[Overview: Wazuh & Sysmon SIEM Implementation](./projects/project-01-wazuh-sysmon-siem/README.md)
+   - 
+   -[Overview: Wazuh & Sysmon SIEM Implementation](./projects/project-01-wazuh-sysmon-siem/README.md)
+
    - Repo: https://github.com/<your-username>/soc-project-01-wazuh-sysmon-siem
 
-2) ⬜ **Project 02: Alert Triage Playbook Pack (Tier 1 workflow)**
+3) ⬜ **Project 02: Alert Triage Playbook Pack (Tier 1 workflow)**
    - Build: step-by-step playbooks for common alerts (brute force, suspicious PowerShell, new admin user)
    - Output: triage checklists + sample tickets + close/escalate criteria
    - Overview: [projects/project-02.md](projects/project-02.md)
    - Repo: https://github.com/<your-username>/soc-project-02-triage-playbooks
 
-3) ⬜ **Project 03: Network Visibility Lab (Suricata + Zeek)**
+4) ⬜ **Project 03: Network Visibility Lab (Suricata + Zeek)**
    - Build: IDS + network metadata, then send alerts/logs into your SIEM
    - Output: detections for scan behavior, suspicious DNS, and unusual outbound patterns
    - Overview: [projects/project-03.md](projects/project-03.md)
    - Repo: https://github.com/<your-username>/soc-project-03-suricata-zeek
 
-4) ⬜ **Project 04: Phishing Investigation Lab**
+5) ⬜ **Project 04: Phishing Investigation Lab**
    - Analyze: headers, URLs, attachments, payload indicators
    - Output: phishing decision notes + user guidance + containment steps
    - Overview: [projects/project-04.md](projects/project-04.md)
    - Repo: https://github.com/<your-username>/soc-project-04-phishing-triage
 
-5) ⬜ **Project 05: Threat Hunting on Endpoints (Velociraptor)**
+6) ⬜ **Project 05: Threat Hunting on Endpoints (Velociraptor)**
    - Hunt: persistence checks, unusual parent-child process chains, unsigned binaries
    - Output: hunt queries + findings + follow-up detections
    - Overview: [projects/project-05.md](projects/project-05.md)
    - Repo: https://github.com/<your-username>/soc-project-05-velociraptor-hunting
 
-6) ⬜ **Project 06: Detection Engineering Pack (ATT&CK mapped)**
+7) ⬜ **Project 06: Detection Engineering Pack (ATT&CK mapped)**
    - Write: a set of detections with test cases and tuning notes
    - Output: “why this is suspicious”, expected false positives, and validation steps
    - Overview: [projects/project-06.md](projects/project-06.md)
    - Repo: https://github.com/<your-username>/soc-project-06-detection-pack
 
-7) ⬜ **Project 07: Cloud Log Triage (AWS CloudTrail)**
+8) ⬜ **Project 07: Cloud Log Triage (AWS CloudTrail)**
    - Build: a small cloud logging setup and investigate common IAM risks
    - Output: triage notes for risky API calls and access patterns
    - Overview: [projects/project-07.md](projects/project-07.md)
    - Repo: https://github.com/<your-username>/soc-project-07-cloudtrail-triage
 
-8) ⬜ **Project 08: Vulnerability Management to SOC Workflow**
+9) ⬜ **Project 08: Vulnerability Management to SOC Workflow**
    - Scan: a lab environment, prioritize findings, and open remediation tickets
    - Output: risk notes, fixes, and verification screenshots
    - Overview: [projects/project-08.md](projects/project-08.md)
    - Repo: https://github.com/<your-username>/soc-project-08-vuln-to-tickets
 
-9) ⬜ **Project 09: Incident Timeline Case (Ransomware-style simulation)**
+10) ⬜ **Project 09: Incident Timeline Case (Ransomware-style simulation)**
    - Build: timeline from telemetry, confirm what happened, propose containment
    - Output: incident report + executive summary + lessons learned
    - Overview: [projects/project-09.md](projects/project-09.md)
    - Repo: https://github.com/<your-username>/soc-project-09-incident-timeline
 
-10) ⬜ **Project 10: SOC Automation Lite (Enrichment + Ticketing)**
+11) ⬜ **Project 10: SOC Automation Lite (Enrichment + Ticketing)**
    - Automate: IOC enrichment, reputation checks, and a basic triage workflow
    - Output: faster triage notes, consistent evidence collection
    - Overview: [projects/project-10.md](projects/project-10.md)
