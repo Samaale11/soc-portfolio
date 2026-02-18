@@ -1,11 +1,10 @@
 ---
 <h1 align="center"> SOC Analyst Portfolio tier 1 and 2 </h1>
 
-<p align="center">I am **Mohamed Farah, a Cybersecurity professional with a Bachelor’s degree in Cybersecurity from IU International University of Applied Sciences**, the Google Cybersecurity Professional Certificate, and IT Fundamentals certification.</p>
+<p align="center">I am <strong>Mohamed Farah, a Cybersecurity professional with a Bachelor’s degree in Cybersecurity from IU International University of Applied Sciences</strong>, the Google Cybersecurity Professional Certificate, and IT Fundamentals certification.</p>
 
-<p align="center">This repository serves as the centralized hub for my **SOC Analyst Tier 1 and 2 portfolio**. It features **evidence-based projects** including log pipelines, alert triage, detection rules, threat hunting, incident tickets, and detailed lab writeups. These practical projects provide technical proof of my ability to collect telemetry, triage alerts, build detections, and write clear incident tickets using industry-standard tools such as Wazuh, Sysmon, Zeek, Suricata, and Velociraptor.</p>
+<p align="center">This repository serves as the centralized hub for my <strong>SOC Analyst Tier 1 and 2 portfolio</strong>. It features <strong>evidence-based projects</strong> including log pipelines, alert triage, detection rules, threat hunting, incident tickets, and detailed lab writeups. These practical projects provide technical proof of my ability to collect telemetry, triage alerts, build detections, and write clear incident tickets using industry-standard tools such as Wazuh, Sysmon, Zeek, Suricata, and Velociraptor.</p>
 ---
-
 
 ## Target role: SOC Analyst Tier 1 or 2
 
@@ -176,8 +175,6 @@ Legend: ✅ done | 🟡 in progress | ⬜ planned
 - Each project repo contains the full evidence trail and reproducible steps
   
 ---
-
-
 
 
 
