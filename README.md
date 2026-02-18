@@ -110,7 +110,7 @@ Legend: ✅ done | 🟡 in progress | ⬜ planned
 
 1) ⬜ **Project 01: Mini SOC Lab (Wazuh + Sysmon on Windows)**
    - Proves: endpoint telemetry, SIEM ingestion, custom alerts, investigation tickets
-   - Overview: projects/project-01-wazuh-sysmon-siem/README.md
+   -**[Overview: Wazuh & Sysmon SIEM Implementation](./projects/project-01-wazuh-sysmon-siem/README.md)
    - Repo: https://github.com/<your-username>/soc-project-01-wazuh-sysmon-siem
 
 2) ⬜ **Project 02: Alert Triage Playbook Pack (Tier 1 workflow)**
