@@ -7,3 +7,15 @@
 ### Step 2: Host-only network created
 - Host-only network name: VirtualBox Host-Only Ethernet Adapter
 - Host-only network IPv4 : 192.168.172.1
+### Step 3: Ubuntu VM created
+- VM name: ubuntu-wazuh-soc
+- CPU:  4cores
+- RAM: 16 GB
+- Disk: 60 GB
+- Adapter 1: NAT
+- Adapter 2: Host-only (name: VirtualBox Host-Only Ethernet Adapter)
+- ### Step 4: Ubuntu installed
+- Ubuntu version installed: 24.04.4 LTS
+- Username created: farah
+- OpenSSH server: enabled: yes
+
